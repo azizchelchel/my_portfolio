@@ -4,13 +4,15 @@ import { TfiTwitterAlt } from "react-icons/tfi";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import img from "../assets/chellalaziz.jpg";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
 
 const Banner = () => {
-  AOS.init();
+  // AOS.init();
   return (
-    <div className="px-2 lg:px-40 py-8 lg:py-8 text-center gap-5 lg:text-start flex flex-col-reverse justify-between  lg:flex-row lg:gap-28 items-center">
+    <div
+      id="Banner"
+      className="px-2 py-8  text-center gap-5 flex flex-col-reverse justify-between  lg:flex-row lg:gap-28 items-center lg:text-start lg:px-40  "
+    >
       <div className="h-full lg:py-10 flex flex-col justify-center items-center text-white lg:items-start">
         <h1 className="text-[52px] font-semibold mb-8 leading-normal">
           welcome to <span>My Website</span>
@@ -52,18 +54,6 @@ const Banner = () => {
                 className="text-fuchsia-600  hover:text-fuchsia-500  rounded-full glow p-2"
               >
                 <FaLinkedinIn className="text-[28px]" />
-              </a>
-              <a
-                href=""
-                className="text-fuchsia-600  hover:text-fuchsia-500 rounded-full glow p-2 "
-              >
-                <TfiTwitterAlt className="text-[28px]" />
-              </a>
-              <a
-                href=""
-                className="text-fuchsia-600  hover:text-fuchsia-500 rounded-full glow p-2 "
-              >
-                <FaInstagram className="text-[28px]" />
               </a>
             </div>
           </div>

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.glow {
-  transition: all 0.3s ease-in-out;
-}
-
 .glow:hover {
   box-shadow: 0 0 25px rgb(206, 71, 193);
 }
@@ -14,6 +10,11 @@
   box-shadow: 0 0 55px rgb(206, 71, 193);
 }
 
+.tabs {
+  box-shadow: 0 0 15px #ce47c1;
+}
+.glow,
+.button-submit,
 .resume-button {
   transition: all 0.3s ease-in-out;
 }
