@@ -1,12 +1,9 @@
-import React from "react";
 import myavatar from "../assets/itsme.png";
 import { AiFillGithub } from "react-icons/ai";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { TfiTwitterAlt } from "react-icons/tfi";
-
+import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-slate-800  py-16 flex flex-col gap-8  p-2 md:flex-row md:px-16">
+    <div className="bg-slate-800  py-16 flex flex-col gap-8  md:flex-row md:px-20 ">
       <div className="flex flex-col gap-4">
         <img src={myavatar} width={70} height={70} alt="my avatar" />
         <div className="text-white">
