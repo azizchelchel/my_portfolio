@@ -1,7 +1,5 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { TfiTwitterAlt } from "react-icons/tfi";
-import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import img from "../assets/chellalaziz.jpg";
 // import AOS from "aos";

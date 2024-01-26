@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import myavatar from "../assets/itsme.png";
+
 const Nav = () => {
   const handleClick = () => {
     setClick(!click);

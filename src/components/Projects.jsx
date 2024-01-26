@@ -1,4 +1,7 @@
-import React from "react";
+import DigitalTrader from "../assets/digital-trader.png";
+import docplanner from "../assets/docplanner.png";
+import mameteo from "../assets/mameteo.png";
+import ShopingCart from "../assets/shoping-cart.png";
 
 const Projects = () => {
   return (
@@ -17,52 +20,83 @@ const Projects = () => {
         </h1>
         <div className="flex flex-col items-center  justify-between md:flex-row md:justify-evenly lg:justify-evenly px-[4rem] w-full  pb-8">
           <div className="flex flex-col gap-10 p-5 lg:flex-row lg:justify-evenly">
-            <div
-              data-aos="fade-right"
-              data-aos-offset="200"
-              // data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-once="false"
-              data-aos-easing="ease-in-out"
-              className="flex justify-center items-center h-[8rem] w-[10rem] tabs text-fuchsia-600 shadow-xl border-2  border-fuchsia-800 rounded-tl-2xl rounded-br-2xl"
+            <a
+              href="https://shopping-cart-zeta-drab.vercel.app/"
+              target="blank"
             >
-              <p>HTML</p>
-            </div>
-            <div
-              data-aos="fade-left"
-              data-aos-offset="200"
-              // data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-once="false"
-              data-aos-easing="ease-in-out"
-              className="flex justify-center items-center h-[8rem] w-[10rem]  tabs text-fuchsia-600 shadow-xl border-2  border-fuchsia-800 rounded-tl-2xl rounded-br-2xl"
-            >
-              <p>CSS</p>
-            </div>
+              <div
+                data-aos="fade-right"
+                data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-once="false"
+                data-aos-easing="ease-in-out"
+                className="flex justify-center items-center h-[8rem] w-[12rem]  text-fuchsia-600 shadow-3xl border-2  border-fuchsia-800   cards  
+               rounded-xl "
+              >
+                <img
+                  src={ShopingCart}
+                  alt="Digital-Trader"
+                  className="h-full w-full rounded-2xl"
+                />
+              </div>
+            </a>
+            <a href="https://digital-trader-delta.vercel.app/" target="blank">
+              <div
+                data-aos="fade-left"
+                data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-once="false"
+                data-aos-easing="ease-in-out"
+                className="flex justify-center items-center h-[8rem] w-[12rem]  text-fuchsia-600 shadow-3xl border-2  border-fuchsia-800   cards  
+                rounded-xl"
+              >
+                <img
+                  src={DigitalTrader}
+                  alt="Digital-Trader"
+                  className="h-full w-full rounded-2xl"
+                />
+              </div>
+            </a>
           </div>
           <div className="flex flex-col gap-10 p-5 lg:flex-row lg:justify-evenly">
-            <div
-              data-aos="fade-right"
-              data-aos-offset="200"
-              // data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-once="false"
-              data-aos-easing="ease-in-out"
-              className="flex justify-center items-center h-[8rem] w-[10rem] tabs text-fuchsia-600 shadow-xl border-2  border-fuchsia-800 rounded-tl-2xl rounded-br-2xl"
-            >
-              <p>HTML</p>
-            </div>
-            <div
-              data-aos="fade-left"
-              data-aos-offset="200"
-              // data-aos-delay="50"
-              data-aos-duration="500"
-              data-aos-once="false"
-              data-aos-easing="ease-in-out"
-              className="flex justify-center items-center h-[8rem] w-[10rem]  tabs text-fuchsia-600 shadow-xl border-2  border-fuchsia-800 rounded-tl-2xl rounded-br-2xl"
-            >
-              <p>CSS</p>
-            </div>
+            <a href="https://docplanner-clone-2.vercel.app/" target="blank">
+              <div
+                data-aos="fade-right"
+                data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-once="false"
+                data-aos-easing="ease-in-out"
+                className="flex justify-center items-center h-[8rem] w-[12rem]  text-fuchsia-600 shadow-3xl border-2  border-fuchsia-800   cards  
+              rounded-xl "
+              >
+                <img
+                  src={docplanner}
+                  alt="mameteo"
+                  className="h-full w-full rounded-2xl"
+                />
+              </div>
+            </a>
+            <a href="https://meteome.vercel.app/">
+              <div
+                data-aos="fade-left"
+                data-aos-offset="200"
+                // data-aos-delay="50"
+                data-aos-duration="500"
+                data-aos-once="false"
+                data-aos-easing="ease-in-out"
+                className="flex justify-center items-center h-[8rem] w-[12rem]  text-fuchsia-600 shadow-3xl border-2  border-fuchsia-800   cards  
+               rounded-xl "
+              >
+                <img
+                  src={mameteo}
+                  alt="mameteo"
+                  className="h-full w-full rounded-2xl"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>

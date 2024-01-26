@@ -14,28 +14,33 @@ const Contact = () => {
           CONTACT ME
         </h1>
         <div className="flex flex-col items-center  justify-between md:flex-row md:justify-evenly lg:justify-evenly px-[4rem] w-full  pb-8">
-          <form action="" className="  flex flex-col gap-4">
+          <form
+            id="formId"
+            name="contact_form"
+            action=""
+            className="  flex flex-col gap-4"
+          >
             <div className="flex flex-col w-[20rem] lg:justify-between gap-4 ">
               <input
                 className="tabs bg-transparent border-fuchsia-800 py-auto text-white border  rounded-lg p-2 h-[3rem]"
                 type="text"
-                name=""
-                id=""
+                name="name"
+                id="name_id"
                 placeholder="Enter Your Name"
               />
               <input
                 className="tabs bg-transparent text-white border border-fuchsia-800 rounded-lg p-2 h-[3rem]"
                 type="text"
-                name=""
-                id=""
+                name="email"
+                id="email_id"
                 placeholder="Enter Your Email"
               />
             </div>
             <div>
               <textarea
                 className="tabs tabs w-full bg-transparent p-2 text-white border shadow-xl border-fuchsia-800 rounded-lg  "
-                name=""
-                id=""
+                name="text_area"
+                id="textarea_id"
                 cols="30"
                 rows="5"
               ></textarea>
