@@ -1,14 +1,15 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import { BallTriangle } from "react-loader-spinner";
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Services from "./components/Services";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { BallTriangle } from "react-loader-spinner";
+import Services from "./components/Services";
+import WorkStack from "./components/workStack";
 
 function App() {
   AOS.init();
@@ -38,6 +39,7 @@ function App() {
       ) : (
         <>
           <Nav />
+          <WorkStack />
           <Banner />
           <About />
           <Services />
