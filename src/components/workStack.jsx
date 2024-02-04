@@ -9,10 +9,10 @@ const WorkStack = () => {
   return (
     <div className="w-full px-10 h-auto flex justify-around items-center">
       <div
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col justify-center items-center py-5"
@@ -23,10 +23,10 @@ const WorkStack = () => {
         </div>
       </div>
       <div
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col w-10 h-10 justify-center items-center py-5"
@@ -41,10 +41,10 @@ const WorkStack = () => {
         </div>
       </div>
       <div
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col w-10 h-10 justify-center items-center py-5"
@@ -56,10 +56,10 @@ const WorkStack = () => {
       </div>
 
       <div
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col w-10 h-10 justify-center items-center py-5"
@@ -74,10 +74,10 @@ const WorkStack = () => {
         </div>
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col justify-center w-10 h-10 items-center py-5"
@@ -90,10 +90,10 @@ const WorkStack = () => {
         </div>
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="2000"
         data-aos-once="false"
         data-aos-easing="ease-in-out"
         className="flex flex-col  w-10 h-10 justify-center items-center py-5 "

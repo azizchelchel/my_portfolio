@@ -1,10 +1,8 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa6";
 import img from "../assets/chellalaziz.jpg";
-// import AOS from "aos";
 
 const Banner = () => {
-  // AOS.init();
   return (
     <div
       id="Banner"
@@ -40,14 +38,17 @@ const Banner = () => {
             >
               <a
                 href="https://www.github.com/azizchelchel"
-                target="blank"
+                target="_blank"
                 className="text-fuchsia-600  hover:text-fuchsia-500  rounded-full glow p-2"
+                rel="noreferrer"
               >
                 <AiFillGithub className="text-[28px]" />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/aziz-chellal-416993230/"
+                target="_blank"
                 className="text-fuchsia-600  hover:text-fuchsia-500  rounded-full glow p-2"
+                rel="noreferrer"
               >
                 <FaLinkedinIn className="text-[28px]" />
               </a>

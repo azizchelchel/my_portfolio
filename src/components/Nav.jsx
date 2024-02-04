@@ -12,9 +12,9 @@ const Nav = () => {
   const content = (
     <>
       <div className="lg:hidden block  top-16 w-full left-0 right-0 bg-slate-900">
-        <ul className="text-left  text-xl p-20">
+        <ul className="text-center text-xl p-20">
           <Link spy={true} smooth={true} to="Home">
-            <li className="flex justify-end my-4  py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hoveeer:rounded">
               Home
             </li>
           </Link>
@@ -47,20 +47,20 @@ const Nav = () => {
       <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800 ">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">
-            <a spy={true} smooth={true} to="Banner">
+            <Link spy={true} smooth={true} to="Banner">
               <img
                 src={myavatar}
                 alt="my avatar"
-                className="rounded-full"
+                className="rounded-full hover:cursor-pointer"
                 width={60}
                 height={60}
               />
-            </a>
+            </Link>
           </span>
         </div>
         <div className=" md:flex  lg:flex lg:flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
-            <ul className="flex gap-8 mr-16 text-[18px]">
+            <ul className="flex justify-end gap-8 mr-16 text-[18px]">
               <Link spy={true} smooth={true} to="Banner">
                 <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:bordeer-fuchsia-600 cursor-pointer">
                   Home
@@ -90,7 +90,7 @@ const Nav = () => {
           </div>
         </div>
         <div>{click && content}</div>
-        <button className="block sm:hidden trandition" onClick={handleClick}>
+        <button className="block md:hidden transition" onClick={handleClick}>
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>
