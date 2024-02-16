@@ -17,8 +17,10 @@ const Contact = () => {
           <form
             id="formId"
             name="contact_form"
-            action=""
+            action="https://getform.io/f/DbDGgqal"
             className="  flex flex-col gap-4"
+            method="POST"
+            encType="multipart/form-data"
           >
             <div className="flex flex-col w-[20rem] lg:justify-between gap-4 ">
               <input
@@ -45,8 +47,19 @@ const Contact = () => {
                 rows="5"
               ></textarea>
             </div>
-            <button className="tabs button-submit w-full shadow-lg hover:bg-slate-600 text-white border-2 shadow-slate-500 bg-slate-700 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden ">
-              <a href="">submit</a>
+            <div className="flex justify-center">
+              <input
+                type="file"
+                name="file"
+                id="attach"
+                className="text-white rounded-md border-sky-100 border-2"
+              />
+            </div>
+            <button
+              type="submit"
+              className="tabs button-submit w-full shadow-lg hover:bg-slate-600 text-white border-2 shadow-slate-500 bg-slate-700 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden "
+            >
+              submit
             </button>
           </form>
         </div>

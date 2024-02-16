@@ -1,9 +1,7 @@
 import { Card } from "flowbite-react";
 import { RxGithubLogo } from "react-icons/rx";
 import DigtalTrader from "../assets/digital-trader.png";
-import docplanner from "../assets/docplanner.png";
-import mameteo from "../assets/mameteo.png";
-import ShopingCart from "../assets/shoping-cart.png";
+import { arrowToSite } from "../assets/icons.jsx";
 const Projects = () => {
   return (
     <div id="Projects" className="h-full p-5">
@@ -27,10 +25,17 @@ const Projects = () => {
           projects effectively.
         </p>
         <div className="grid grid-cols-1 mx-auto gap-4 sm:grid-cols-2 xl:grid-cols-3  ">
-          <div className="tabs  rounded-lg">
-            <RxGithubLogo className="absolute top-0 z-50 rounded-full" />
+          <div className="tabs relative  rounded-lg">
+            <div className="absolute right-2 top-[25%] ">
+              <div className="flex flex-col gap-2">
+                <RxGithubLogo className="z-50 rounded-full " />
+                {/* <RxGithubLogo className="z-50 rounded-full " /> */}
+                {arrowToSite}
+              </div>
+              <div></div>
+            </div>
             <Card
-              className="max-w-sm h-full"
+              className="max-w-sm h-full "
               imgAlt="Meaningful alt text for an image that is not purely decorative"
               imgSrc={DigtalTrader}
             >
@@ -43,11 +48,18 @@ const Projects = () => {
               </p>
             </Card>
           </div>
-          <div className="tabs  rounded-lg ">
+          <div className="tabs relative  rounded-lg">
+            <div className="absolute right-2 top-[25%] ">
+              <div className="flex flex-col gap-2">
+                <RxGithubLogo className="z-50 rounded-full " />
+                <RxGithubLogo className="z-50 rounded-full " />
+              </div>
+              <div></div>
+            </div>
             <Card
-              className="max-w-sm  h-full"
+              className="max-w-sm h-full "
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc={mameteo}
+              imgSrc={DigtalTrader}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noteworthy technology acquisitions 2021
@@ -58,11 +70,18 @@ const Projects = () => {
               </p>
             </Card>
           </div>
-          <div className="tabs  rounded-lg">
+          <div className="tabs relative  rounded-lg">
+            <div className="absolute right-2 top-[25%] ">
+              <div className="flex flex-col gap-2">
+                <RxGithubLogo className="z-50 rounded-full " />
+                <RxGithubLogo className="z-50 rounded-full " />
+              </div>
+              <div></div>
+            </div>
             <Card
-              className="max-w-sm h-full"
+              className="max-w-sm h-full "
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc={docplanner}
+              imgSrc={DigtalTrader}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noteworthy technology acquisitions 2021
@@ -73,11 +92,18 @@ const Projects = () => {
               </p>
             </Card>
           </div>
-          <div className="tabs  rounded-lg">
+          <div className="tabs relative  rounded-lg">
+            <div className="absolute right-2 top-[25%] ">
+              <div className="flex flex-col gap-2">
+                <RxGithubLogo className="z-50 rounded-full " />
+                <RxGithubLogo className="z-50 rounded-full " />
+              </div>
+              <div></div>
+            </div>
             <Card
-              className="max-w-sm h-full"
+              className="max-w-sm h-full "
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc={ShopingCart}
+              imgSrc={DigtalTrader}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noteworthy technology acquisitions 2021
